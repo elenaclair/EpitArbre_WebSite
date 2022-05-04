@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta name="viewport" content="with=device-width, initial-scale= 1.0">
+		<title>Epitarbre Website</title>
+		<link rel="stylesheet" href="style.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	</head>
+	<body>
+		<section class="header">
+			<nav>
+				<a href="EpitArbre.html"><img src="Images/TEK42-logo.png"></a>
+				<div class="nav-links" id="navLinks">
+					<i class="fa fa-times" onclick="hideMenu()"></i>
+					<ul>
+						<li><a href="Index.html">HOME</a></li>
+  					        <li><a href="Aboutus.html">ABOUT US</a></li>
+	                                        <li><a href="App.html">BLOG</a></li>
+
+					</ul>
+				</div>
+				<i class="fa fa-bars"onclick="showMenu()"></i>
+			</nav>
+			<div class="text-box">
+				<h1>Best Solution To Learn About Graphs</h1>
+				<p> We created the best app to learn about graph. You will learn how to use a very important algorithm's tools!</p>
+				<a href="App.html" class="hero-btn">Click here to know more</a>
+			</div>
+		</section>
+	
+		<!-------       course      ------>
+		
+	<section class="EpitArbre">
+		<h1>The idea behind EpitArbre</h1>
+		<p>EpitArbre is the absolut best way to success your third semester at epita!</p>
+
+		<div class="row">
+			<div class="course-col">
+				<h3> Graph Interface</h3>
+				<p> The global interface is essential so that first our software can function properly and also so that the user has a direct visual on his exercise. It must be simple and complete for the pleasure of the student. <br>
+Among the various components of the interface, we find a console so that the user can manually enter the nodes he wants linked, as well as a screen that displays the result of the graph or the tree according to what he or she wants.</p>
+			</div>
+
+			<div class="course-col">
+                                <h3>BinTree Interface</h3>
+                                <p>The interface for BinTrees consists of two main parts.
+A "Start Building your Tree" part that will ask the user to enter a sequence of commands: left-...-[node] or right-...-[node], to allow him to create a binary tree from the root 1.
+A second part "Bintree" concerning the exercise in question, where the user will be asked to choose between the 3 different paths (Preorder, Inorder, Postorder). In the text box below, the user is asked to enter a sequence of nodes corresponding to the order of the nodes encountered during the previously selected scan. To check, a "verify" key has been set so that the user can know whether his journey is correct or not. Finally, a "reset" button is present in order to delete the user’s answers. </p>
+                        </div>
+
+			<div class="course-col">
+                                <h3>Learning</h3>
+				<p> For this project we decided to develop an application. Its purpose will be educational and will allow novices to discover algorithms, more precisely tools such as trees and graphs.<br>
+The end goal is that the user can practice on the trees and graphs using the algorithms he or she learned in class or in the MIMOS in the case of our dear epiteans.</p>
+                        </div>
+
+		</div>
+	</section>
+
+
+		<!------Javascript for Toggle Menu------>
+	<script>
+		var navLinks= document.getElementById("navLinks");
+		function showMenu(){
+			navLinks.style.right= "0";
+		}
+		function hideMenu(){
+                        navLinks.style.right= "-200px";
+                }
+
+	</script>
+
+	</body>
+</html>
+

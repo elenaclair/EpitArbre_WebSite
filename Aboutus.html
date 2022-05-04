@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="with=device-width, initial-scale= 1.0">
+		<title>Epitarbre Website design</title>
+		<link rel="stylesheet" href="style.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	</head>
+	<body>
+		<section class="sub-header">
+			<nav>
+				<a href="EpitArbre.html"><img src="Images/TEK42-logo.png"></a>
+				<div class="nav-links" id="navLinks">
+					<i class="fa fa-times" onclick="AboutUs()"></i>
+					<ul>
+						<li><a href="Index.html">HOME</a></li>
+  					        <li><a href="Aboutus.html">ABOUT US</a></li>
+	                                        <li><a href="App.html">BLOG</a></li>
+
+					</ul>
+		
+				</div>
+				<i class="fa fa-bars"onclick="showMenu()"></i>
+			</nav>
+			<div class="text-box">
+                                <h1>Contact</h1>
+                        </div>
+
+		</section>
+	
+
+	<section class="Team">
+		<h1>Our Team</h1>
+		<p>Our team's name is Tek42, it involved four incridible teammates!</p>
+
+		<div class="row">
+                        <div class="team-col">
+				<img src="Images/Ayato-modified.png">
+				<h3>Christian Chen</h3>
+                                <p> Hello, I am Christian Chen and I am part of the TEK42 team. My passions are the classic video games and manga. Apart from these areas I am quite interested in the ponds tongues. I had to do my semester in Poland in a cold charmand but I return to France to perform my S4 with a smile of course.</p>
+                        </div>
+
+                        <div class="team-col">
+                                <img src="Images/pp_2.png">
+                                <h3>Jacques Chen</h3>
+                                <p> Hello, my name is Jacques Chen, I am 21 years old, I am passionate about airsoft and robotics. Currently in 2nd year of preparatory class within EPITA. Head of the TEK42 group, I hope through the EPITARBRE project, to share with you this passion that is computer science and potentially bring you additional knowledge in Algorithmics.</p>
+                        </div>
+
+                        <div class="team-col">
+                                <img src="Images/pp_3.png">
+                                <h3>Eléna Clair</h3>
+                                <p> I am Eléna Clair, 19 years old. I am very interested in foreign languages and computer science as a whole. I had to do my semester in Latvia, but we had to be repatriated. That’s how I joined the Tek42 team. And we embarked on the adventure that will be Epitarbre.</p>
+                        </div>
+                        <div class="team-col">
+                                <img src="Images/pp_1.png">
+                                <h3>Laura Martin</h3>
+					<p>Hello!
+	My name is Laura MARTIN and I am a member of the TEK42 team. My goal is to give everything so that the EPITARBRE project runs in good conditions and that it leads to a satisfactory result
+	My strength lies in the C-knowledge I gained during the S3 OCR project. They will allow me to help my colleagues in the management of various backup files, the manipulation of the Glade GUI and the writing of GTK file code. The last of my assets is imagination. It will be helpful in finding design ideas for our learning app.
+					</p>
+			</div>
+
+                </div>
+
+
+	</section>
+
+
+		<!------Javascript for Toggle Menu------>
+	<script>
+		var navLinks= document.getElementById("navLinks");
+		function showMenu(){
+			navLinks.style.right= "0";
+		}
+		function hideMenu(){
+                        navLinks.style.right= "-200px";
+                }
+
+	</script>
+
+	</body>
+</html>
+
