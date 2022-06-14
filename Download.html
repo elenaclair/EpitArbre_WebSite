@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta name="viewport" content="with=device-width, initial-scale= 1.0">
+		<title>Epitarbre Website</title>
+		<link rel="stylesheet" href="style.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	</head>
+	<body>
+		<section class="header2">
+			<nav>
+				<a href="Download.html"><img src="Images/TEK42-logo.png"></a>
+				<div class="nav-links" id="navLinks">
+					<i class="fa fa-times" onclick="hideMenu()"></i>
+					<ul>
+						<li><a href="index.html">HOME</a></li>
+  					        <li><a href="Aboutus.html">ABOUT US</a></li>
+	                                        <li><a href="App.html">BLOG</a></li>
+						<li><a href="Download.html">Download</a></li>
+
+					</ul>
+				</div>
+				<i class="fa fa-bars"onclick="showMenu()"></i>
+			</nav>
+			<div class="text-box">
+				<h1>Now Download it !</h1>
+			</div>
+		</section>
+	
+		<!-------       course      ------>
+		
+	<section class="EpitArbre">
+		<h1>Click on the link and follow the instructions</h1>
+		<button><a href="EPITARBRE-main.zip">DOWNLOAD!</a></button>
+
+	</section>
+
+
+		<!------Javascript for Toggle Menu------>
+	<script>
+		var navLinks= document.getElementById("navLinks");
+		function showMenu(){
+			navLinks.style.right= "0";
+		}
+		function hideMenu(){
+                        navLinks.style.right= "-200px";
+                }
+
+	</script>
+
+	</body>
+</html>
+

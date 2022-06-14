@@ -214,6 +214,28 @@ h3{
 
 }
 
+.github{
+	margin-top: 20%;
+	max-width: 100%;
+        max-height: 100%;
+}
+.github button{
+        display: inline-block;
+        text-decoration: none;
+        color: #111;
+        border: 1px solid #036;
+        padding: 12px 34px;
+        font-size: 13px;
+        background: transparent;
+        position: relative;
+        cursor: pointer;
+}
+.github button:hover{
+        border: 1px solid #f44336;
+        background: #f44336;
+        transition: 1s;
+}
+
 /*-------------------- App Page ------------------*/
 
 .sub2-header{
@@ -250,8 +272,34 @@ h3{
 	width:10%;
 }
 
+/*------------------------ Download -------------------*/
+
+.header2{
+        height: 75vh;
+        width: 100%;
+        background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(Images/download.png);
+        background-position: center;
+        background-size: cover;
+        position: relative;
+}
 
 
+.EpitArbre button{
+        display: inline-block;
+        text-decoration: none;
+        color: #fff;
+        border: 1px solid #fff;
+        padding: 12px 34px;
+        font-size: 13px;
+        background: transparent;
+        position: relative;
+        cursor: pointer;
+}
+.EpitArbre button:hover{
+        border: 1px solid #f44336;
+        background: #f44336;
+        transition: 1s;
+}
 
 
 
